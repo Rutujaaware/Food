@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+    
+#container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.header__alert-bar {
+    background-color: green;
+    text-align: center;
+display: flex;
+    flex-wrap: wrap;
+}
+#navbar{
+    display: none;
+    text-decoration: underline;
+}
+.navbar:hover{
+ color: blue;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#herosection{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 50px;
+}
+#herosection div img{
+     max-width: 100%;
+}
+.container2 {
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #1a3c28;
+  margin-bottom: 40px;
+}
+
+.certified_item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display:block;
+  position: relative;
+}
+
+.certified_item img {
+  width: 60px;
+  height: auto;
+}
+
+
+
+#shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.shop_item{
+background-color: green;
+    justify-content: center;
+justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 0px;
+    
+}
+#img {
+    max-width: 100%;
+
+height: auto;
+}
+.section_img{
+ max-width: 100%;
+height: 80%;
+
+}
+.featured{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+    align-items: center;
+
+}
+#oaganicindia{
+    margin: 50px 0px;
+text-align:center ;
+background-color: green;
+margin-bottom: 40px;
+color: white;
+
+}
+.organicindia_heading{
+margin-bottom: 40px;
+text-align: center;
+justify-content: space-between;
+
+}
+.oaganicindia_commit{
+ height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 21px;
+
+}
+.footer {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .footer .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .footer .footer-nav div {
+      line-height: 2;
+      font-size: 14px;
+    }
+
+    .footer .shop-btn {
+      background: white;
+      color: green;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+
+    
+
+    .footer .handle {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    .footer .hours,
+    .footer .copyright,
+    .footer .disclaimer {
+      font-size: 12px;
+      color: white;
+      max-width: 700px;
+      margin: 10px auto;
+    }
+
+    .footer .disclaimer {
+      font-size: 10px;
+      margin-top: 20px;
+    }
+
+
+
+
+@media only screen and (min-width:768px){
+    #footer{
+        
+        text-align: end;
+   
+    }
+.navbar{
+display: block;
+
+}
+
+.img{
+width: 50%;
+}
+
+    .oaganicindia{
+        width: 30%;
+      
+    }
+    .featured{
+        width: 47%;
+    }
+     
+    #shop{
+        width: 100%;
+    }
+
+    #customer div{
+        width: 50%;
+    }
+
+    
+
+
+}
+@media only screen and (min-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+  }
+@media (max-width: 768px) {
+  .hero, .brain-fog {
+    flex-direction: column;
+  }
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  .hero {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .certification-logos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:1200px){
+    #ftu{
+        
+        text-align: start;
+        background-color: rgb(21, 230, 70);
+    }
+
+
+    footer{
+        padding: 100px  0px 0px 0px;
+    }
+
+    }
+    @media (max-width: 768px) {
+  .hero, .brain-fog {
+    flex-direction: column;
+  }
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
